@@ -1,1 +1,1 @@
-# minecraft_jinro
+# minecraft_werewolf
