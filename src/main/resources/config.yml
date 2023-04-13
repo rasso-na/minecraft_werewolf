@@ -1,0 +1,265 @@
+item:
+
+  ==========:
+    num: 1
+    base: WOODEN_SWORD
+    description:
+      desc1: ==========
+      desc2: ==========
+      times: 2
+    enchantment:
+      ench1: KNOCKBACK:10
+    durability: 57
+    price: 500
+    w: 2
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: BLAZE_POWDER
+    description:
+      desc1: ==========
+      desc2: ==========
+      usage: ==========
+      times: 1
+    enchantment:
+      ench1: FIRE_ASPECT:5
+    price: 500
+    w: 3
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 2
+    base: BOW
+    description:
+      desc1: ==========
+      usage: ==========
+      times: 1
+    enchantment:
+      ench1: ARROW_DAMAGE:255
+    durability: 500
+    price: 500
+    w: 4
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 2
+    base: ARROW
+    description:
+      desc1: ==========
+      usage: 弓を使うのに必要
+    price: 100
+    w: 4
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 5
+    base: COOKED_BEEF
+    description:
+      desc1: ==========
+      desc2: ==========
+    price: 300
+    w: 5
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: ARMOR_STAND
+    description:
+      desc1: ==========
+      usage: 手に持って右クリック
+      times: 1
+    price: 2000
+    w: 2
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: GLOWSTONE_DUST
+    description:
+      desc1: ==========
+      usage: 手に持って右クリック
+      times: 1
+    price: 2000
+    w: 3
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 2
+    base: WITHER_ROSE
+    description:
+      desc1: ==========
+      usage: 手に持って右クリック
+      times: 1
+    price: 2000
+    w: 3
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: LEATHER
+    description:
+      desc1: ==========
+      usage: 手に持って右クリック
+    price: 2000
+    w: 3
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: NETHER_STAR
+    description:
+      desc1: ==========
+      usage: 購入すると自動で発動
+      times: 1
+    price: 3000
+    whocanbuy: "狂人"
+    w: 2
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: LAPIS_LAZULI
+    description:
+      desc1: ==========
+      usage: 購入すると自動で発動
+      times: 1
+    price: 10000
+    whocanbuy: "占い"
+    w: 2
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: EMERALD
+    description:
+      desc1: ==========
+      usage: 購入すると自動で発動
+      times: 1
+    price: 10000
+    whocanbuy: "霊媒"
+    w: 2
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: NETHERITE_AXE
+    description:
+      desc1: ==========
+      times: 1
+    enchantment:
+      ench1: DAMAGE_ALL:255
+    durability: 2040
+    price: 3000
+    whocanbuy: "人狼"
+    w: 1
+    gamemode: 人狼
+    forwhat: shop
+
+  ==========:
+    num: 1
+    base: HEART_OF_THE_SEA
+    description:
+      desc1: ==========
+      desc2: 手に持って左クリックでスキルの詳細を確認可能
+      usage: 手に持って右クリック
+    gamemode: 人狼
+    forwhat: firstitem
+
+  ==========:
+    num: 1
+    base: CARROT_ON_A_STICK
+    description:
+      desc1: ==========
+      usage: 相手を左クリック→名前を表示 / どこでも右クリック→参加者一覧を表示
+    gamemode: 人狼
+    forwhat: firstitem
+
+  ==========:
+    num: 1
+    base: PAPER
+    description:
+      desc1: ==========
+      usage: エンダーチェストに入れる
+    gamemode: 人狼
+    forwhat: keyitem
+
+skill:
+
+  村人:
+    description:
+      desc1: wip
+      desc2: wip
+      usage: wip
+      times: 2
+    gamemode: 人狼
+    job: 村人
+
+  人狼:
+    description:
+      desc1: wip
+      desc2: wip
+      usage: wip
+      times: 2
+    gamemode: 人狼
+    job: 人狼
+
+  狂人:
+    description:
+      desc1: wip
+      desc2: wip
+      usage: wip
+      times: 2
+    gamemode: 人狼
+    job: 狂人
+
+  占い:
+    description:
+      desc1: 一人を占うことができる
+      usage: 役職玉を右クリックして占いたいプレイヤーの名前をクリック
+      times: 1
+    gamemode: 人狼
+    job: 占い
+
+  霊媒:
+    description:
+      desc1: 一人を霊媒にかけることができる
+      usage: 役職玉を右クリックして霊媒したいプレイヤーの名前をクリック
+      times: 1
+    gamemode: 人狼
+    job: 霊媒
+
+  へんしん:
+    description:
+      desc1: 他のプレイヤーに変身することができる
+      desc2: 勝利条件は変身後の役職にしたがう
+      usage: 役職玉を右クリックして変身したいプレイヤーの名前をクリック
+      times: 1
+    gamemode: 人狼
+    job: ﾒﾀﾓﾝ
+
+  お見通し:
+    description:
+      desc1: 他のプレイヤーの持ち物を透視することができる
+      desc2: 所持しているアイテムの名前と数を確認可能
+      usage: 役職玉を右クリックして透視したいプレイヤーの名前をクリック
+      times: 1
+    gamemode: 人狼
+    job: 透視
+
+
+admin:
+  name:
+    test: 0

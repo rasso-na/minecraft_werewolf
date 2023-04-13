@@ -1,0 +1,17 @@
+name: MzGames
+version: '${project.version}'
+main: com.mozumozu.power.mzgames.MzGames
+api-version: 1.16
+authors: [ Moz ]
+
+commands:
+  moz:
+    description: master
+  ura:
+    description: uranai
+  rei:
+    description: reibai
+  met:
+    description: metamon
+  tou:
+    description: toushi
